@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(189, 240, 240);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(102, 213, 213);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.234);
+        }
+
+
+
+        nav>a{
+            
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+            margin-right: 20px;
+
+        }
+
+        nav>a:hover{
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px 30px 40px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.299);
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article>aside{
+            background-color: rgb(159, 159, 159);
+        }
+
+        footer{
+            background-color: darkcyan;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer>p{
+            margin: 0px;
+        }
+
+       /* #bola{
+            background-color: aliceblue;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(218, 121, 209, 0.459);
+            animation: float 1s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-100px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }*/
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+       
+                <nav>
+                <a href="a">Link</a>
+                <a href="a">Link</a>
+                <a href="a">Link</a>
+                 <a href="a">Link</a>
+                <a href="a">Link</a>  
+
+            </nav>
+       
+
+    </header>
+
+    <main>
+        <section id="assuntos"> 
+
+        </section>
+
+        <section id="noticias"> 
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, fugiat mollitia quibusdam sequi vero molestias veniam officia debitis quaerat nisi adipisci, hic eum tenetur vitae laborum dolore reprehenderit numquam! Vel.</p>
+                <aside>
+                    <p>Artigo escrito por José Pereira</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Helio Barbosa</p>
+    </footer>
+
+    <div id="bola">
+
+    </div>
+</body>
+</html>
