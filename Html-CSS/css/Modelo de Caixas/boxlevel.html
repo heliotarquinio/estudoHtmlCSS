@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{ /*Box-level*/
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: darkgray;*/
+
+            border: 10px solid darkgray; /*Simplifica tudo que esta escrito acima Shorthand */
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+
+           /* padding: 10px 10px 10px 10px;  /*No sentido que o relogio anda, cima, direita,baixo,      esquerda
+            ou*/
+            padding: 10px;
+
+            /*margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            /*margin: autoCentraliza a caixa horizontalmente*/
+
+            margin: 10px 20px;
+            /*Quando coloco dessa forma, o primeiro seria largura=10px, segundo altura=20px
+            margin: 10px auto 10px auto -> centraliza*/
+
+            outline: 5px dashed rebeccapurple;
+        }
+        a{ /*inline-level*/
+            border: 2px solid red;
+            padding: 10px;
+          
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>paragrafos tambem sao exemplos de box level, mas <a href="a">links sao exemplos de caixa box-inline</a></p>
+</body>
+</html>
